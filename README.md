@@ -50,6 +50,7 @@ The necessary directories are:
 Setup directory has a file DataSetup.py which does the initial data cleaning and setup process in order to create models and graphs.
 
 Models directory has all the necessary python files that generate the prediction models and produce the graphs to accompany the models.
+It also has a file RandomForestFeatureImportance.py that generates a graph to showcase how much different aspects contribute to a war.
 
 Graphs directory has some data files for the graphs and a InformationalGraphs.py file which generates the graphs after running it. 
 All the graphs except for the ones that measure the models have come from that specific python file.
