@@ -67,9 +67,6 @@ Our data comes from kaggle and all the files are available on [here](https://www
 
 ## Data description
 
-### 0 : Defender
-### 1 : Attacker
-
 ### Wina Reference
 * -1 : attacker lost
 * 0 : draw
