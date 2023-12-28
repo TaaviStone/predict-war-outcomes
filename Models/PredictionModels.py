@@ -6,13 +6,14 @@ import matplotlib.pyplot as plt
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score, classification_report
 
-data = pd.read_csv('combinedData.csv')
+data = pd.read_csv('combined_data.csv')
 
 Train, Test = train_test_split(data, test_size=0.2, random_state=69)
 
 # Features (X) and target variable (y)
 X_train = Train.drop('wina', axis=1)
 y_train = Train['wina']
+
 X_test = Test.drop('wina', axis=1)
 y_test = Test['wina']
 
